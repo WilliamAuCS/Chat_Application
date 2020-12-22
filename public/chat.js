@@ -1,5 +1,5 @@
 // Make connection to socket
-const socket = io.connect("http://localhost:4000");
+const socket = io.connect("http://server.makosusa.com:4000");
 
 // Query DOM
 var message = document.getElementById("message");
